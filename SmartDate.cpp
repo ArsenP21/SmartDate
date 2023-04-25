@@ -1,20 +1,8 @@
 ﻿#include <iostream>
+#include "SD.h"
 
-class SD {
-private:
-    short day, month, year;
-public:
-    SD(short day, short month, short year);
-};
-
-SD::SD(short d, short m, short y) {
-    day = d;
-    month = m;
-    year = y;
-    std::cout << d << "." << m << "." << y;
-}
 
 int main()
 {
-    SD d1(25, 04, 2023);
+    SD d1(20, 04, 1889);
 }
